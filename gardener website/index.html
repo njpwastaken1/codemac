@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        grey: '#C9CBD1',
+                        green: '#293825',
+                        dark: '#0E0E0E',
+                        txtcol: '#1F2B1C',
+                        txtlite: '#6F7484',
+                    },
+                    screens: {
+                        ts: '390px',
+                        sm: '480px',
+                        md: '768px',
+                        lg: '1000px',
+                        xl: '1440px',
+                    },
+
+                },
+                fontSize: {
+                    '6xl': ['3.438rem', {
+                    }],
+                }
+            },
+        };
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="hero-bg">
+        <header>
+            <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-[auto_1fr_auto] py-10">
+                <div>
+                    <a href="#" class="font-medium text-[30px] text-white">A R Gardening</a>
+                </div>
+                <nav class="flex items-center justify-center gap-7">
+                    <a href="#" class="text-base font-medium font-rale text-white hover-underline-animation">Home</a>
+                    <a href="#" class="text-base font-medium font-rale text-white hover-underline-animation">About</a>
+                    <a href="#"
+                        class="text-base font-medium font-rale text-white hover-underline-animation">Services</a>
+                    <a href="#"
+                        class="text-base font-medium font-rale text-white hover-underline-animation">Testimonials</a>
+                </nav>
+                <a href="#" class="font-rale bg-green text-white px-14 py-4 button button--one">Contact Us</a>
+
+            </div>
+        </header>
+
+        <section>
+            <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-1 pt-44 pb-72">
+                <div class="flex flex-col gap-8">
+                    <p class="text-white text-2xl font-rale">A R Gardening:</p>
+                    <h1 class="font-semibold text-white text-6xl max-w-2xl">Premier Somerset's Leading Gardening Experts
+                    </h1>
+                    <p class="text-white font-rale text-lg	max-w-lg">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit,
+                        sed do eiusmod tempor incididunt ut
+                        labore et dolore.</p>
+                    <a href="#" class="font-rale bg-green text-white px-14 py-4 max-w-fit button button--one">Book With
+                        Us Today</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class=" mt-[-7rem]">
+        <div class="mx-auto px-4 max-w-[1000px] grid grid-cols-3 py-12 bg-dark">
+            <div class="flex flex-col items-center justify-center">
+                <h4 class="text-white text-[64px] font-semibold">100%</h4>
+                <p class="text-white text-[26px] font-rale mt-[-0.5rem]">Happy Clients</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <h4 class="text-white text-[64px] font-semibold">25+</h4>
+                <p class="text-white text-[26px] font-rale mt-[-0.5rem]">Gardens Saved</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <h4 class="text-white text-[64px] font-semibold">#1</h4>
+                <p class="text-white text-[26px] font-rale mt-[-0.5rem]">Rated by Clients</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-1 pt-32">
+            <div class="flex justify-center items-center">
+                <h2 class="text-[48px] text-txtcol text-center font-semibold">A wide range of services</h2>
+            </div>
+        </div>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-4 grid-rows-1 gap-7 pt-32 pb-32">
+            <div class="bg-white flex flex-col gap-4 p-[2rem] rounded-[13px] card">
+                <div class="bg-green w-[39px] h-[39px] rounded-[5px] flex justify-center items-center img-container">
+                    <img src="mdi_lawn.png" alt="">
+                </div>
+                <h4 class="text-txtlite font-rale text-[24px]">Lawn Mowing</h4>
+                <p class="text-[15px] text-txtlite font-rale">esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt.
+                </p>
+                <p class="font-green text-[24px] font-medium">Starts $20</p>
+            </div>
+            <div class="bg-white flex flex-col gap-4 p-[2rem] rounded-[13px] card">
+                <div class="bg-green w-[39px] h-[39px] rounded-[5px] flex justify-center items-center img-container">
+                    <img src="streamline_tree-2-solid.png" alt="">
+                </div>
+                <h4 class="text-txtlite font-rale text-[24px]">Hedge Trimming</h4>
+                <p class="text-[15px] text-txtlite font-rale">esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt.
+                </p>
+                <p class="font-green text-[24px] font-medium">Starts $30</p>
+            </div>
+            <div class="bg-white flex flex-col gap-4 p-[2rem] rounded-[13px] card">
+                <div class="bg-green w-[39px] h-[39px] rounded-[5px] flex justify-center items-center img-container">
+                    <img src="mingcute_tree-fill.png" alt="">
+                </div>
+                <h4 class="text-txtlite font-rale text-[24px]">Tree Pruning</h4>
+                <p class="text-[15px] text-txtlite font-rale">esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt.
+                </p>
+                <p class="font-green text-[24px] font-medium">Starts $25</p>
+            </div>
+            <div class="bg-white flex flex-col gap-4 p-[2rem] rounded-[13px] card">
+                <div class="bg-green w-[39px] h-[39px] rounded-[5px] flex justify-center items-center img-container">
+                    <img src="Vector.png" alt="">
+                </div>
+                <h4 class="text-txtlite font-rale text-[24px]">De Weeding</h4>
+                <p class="text-[15px] text-txtlite font-rale">esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt.
+                </p>
+                <p class="font-green text-[24px] font-medium">Starts $15</p>
+            </div>
+        </div>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-1 grid-rows-1 gap-7 pb-32">
+            <div class="flex justify-center items-center">
+                <a href="#" class="font-rale bg-green text-white px-14 py-4 max-w-fit">Book With Us Today</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark">
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-2 grid-rows-1 gap-7 pt-32 pb-40">
+            <div class="flex flex-col gap-5 items-start justify-center">
+                <h3 class="text-white text-[48px] font-normal leading-[130%]">An impeccable, highly
+                    <span class="font-semibold">personalised service</span>
+                </h3>
+                <p class="font-rale text-white text-[17px] max-w-[36rem]">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed
+                    do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua. Dictum non consectetur a erat. Odio tempor orci dapibus ultrices in
+                    iaculis.
+                </p>
+                <p class="font-rale text-white text-[17px] max-w-[36rem]"> Platea dictumst quisque sagittis
+                    purus sit.
+                    Sit amet mattis vulputate enim nulla aliquet. Quisque
+                    sagittis purus sit amet volutpat consequat. Volutpat odio facilisis mauris sit amet massa vitae
+                    tortor.
+                    Ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <a href="#" class="font-rale bg-green text-white px-14 py-4 max-w-fit">Book With Us Today</a>
+            </div>
+            <div class="relative">
+                <img src="about-1.png" alt="" class="hover:scale-105 transition duration-300">
+
+                <img src="about-2.png" class="absolute left-[18%] top-[50%] translate-x--50% translate-y--50%
+                         hover:scale-105 transition duration-300" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-1 pt-32">
+            <div class="flex justify-center items-center">
+                <h2 class="text-[48px] text-txtcol text-center font-semibold">Rated Excellent by 25+ Homeowners</h2>
+            </div>
+        </div>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-3 grid-rows-1 gap-7 pt-32 pb-32">
+            <div class="bg-white flex flex-col gap-10 p-[2rem] rounded-[13px] card">
+                <img src="qyote.png" class="w-[35px] h-auto" alt="">
+                <p class="text-[16px] leading-[1.8] text-txtlite font-rale">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                <p class="font-green text-[19px] font-semibold text-green font-rale">Mr James - Somerset</p>
+            </div>
+            <div class="bg-white flex flex-col gap-10 p-[2rem] rounded-[13px] card">
+                <img src="qyote.png" class="w-[35px] h-auto" alt="">
+                <p class="text-[16px] leading-[1.8] text-txtlite font-rale">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                <p class="font-green text-[19px] font-semibold text-green font-rale">Mr James - Somerset</p>
+            </div>
+            <div class="bg-white flex flex-col gap-10 p-[2rem] rounded-[13px] card">
+                <img src="qyote.png" class="w-[35px] h-auto" alt="">
+                <p class="text-[16px] leading-[1.8] text-txtlite font-rale">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                <p class="font-green text-[19px] font-semibold text-green font-rale">Mr James - Somerset</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-bg">
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-1 grid-rows-1 gap-7 pt-32 pb-32">
+            <div class="flex flex-col items-center justify-center">
+                <h4 class="text-white text-[48px] font-medium text-center">Get a Free Quote Today</h4>
+                <p class="text-white font-rale text-[20px] max-w-[40rem] mt-[2.5rem]  font-light text-center">Lorem
+                    ipsum
+                    dolor sit
+                    amet,
+                    consectetur
+                    adipiscing elit,
+                    sed do eiusmod
+                    tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. </p>
+                <a href="#" class="font-rale bg-green mt-[2.5rem] text-white px-14 py-4 max-w-fit">Recieve a Free
+                    Quote</a>
+                <div class="flex flex-row gap-5 items-center justify-center mt-[1rem]">
+                    <div class="flex flex-row gap-1 max-w-fit">
+                        <img src="star.png" class="w-[17px] h-[16px]" alt="">
+                        <img src="star.png" class="w-[17px] h-[16px]" alt="">
+                        <img src="star.png" class="w-[17px] h-[16px]" alt="">
+                        <img src="star.png" class="w-[17px] h-[16px]" alt="">
+                        <img src="star.png" class="w-[17px] h-[16px]" alt="">
+                    </div>
+                    <p class="text-white font-rale text-[14px] font-light">Rated 5 Stars by clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-1 pt-32 pb-32">
+            <div class="flex justify-center items-center">
+                <h2 class="text-[48px] text-txtcol text-center font-semibold">Lets Sort Out Any Simple Questions
+                </h2>
+            </div>
+        </div>
+
+        <div class="mx-auto px-4 max-w-[1000px] grid grid-cols-1 gap-10 pb-32">
+            <div>
+                <button class="accordion">How do you handle garden design and landscaping projects</button>
+                <div class="panel">
+                    <p class="font-rale text-black p-pad text-[17px] max-w-[36rem">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div>
+                <button class="accordion">How do you handle garden design and landscaping projects</button>
+                <div class="panel">
+                    <p class="font-rale text-black p-pad text-[17px] max-w-[36rem">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div>
+                <button class="accordion">How do you handle garden design and landscaping projects</button>
+                <div class="panel">
+                    <p class="font-rale text-black p-pad text-[17px] max-w-[36rem">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div>
+                <button class="accordion">How do you handle garden design and landscaping projects</button>
+                <div class="panel">
+                    <p class="font-rale text-black p-pad text-[17px] max-w-[36rem">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div>
+                <button class="accordion">How do you handle garden design and landscaping projects</button>
+                <div class="panel">
+                    <p class="font-rale text-black p-pad text-[17px] max-w-[36rem">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark">
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-1 pt-32 pb-32">
+            <div>
+                <h2 class="text-white text-[48px] font-semibold">Have Any More Questions</h2>
+            </div>
+        </div>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-2 pb-32 items-start align-start">
+            <div>
+                <p class="font-rale text-white text-[22px] font-light">ARGardeningService24@gmail.com</p>
+                <div class="flex flex-row gap-2 mt-[1rem]">
+                    <img src="ic_outline-facebook.png" alt="">
+                    <img src="ant-design_twitter-circle-filled.png" alt="">
+                    <img src="mage_instagram-circle.png" alt="">
+                </div>
+            </div>
+            <div class="grid grid-row 4 gap-[3rem]">
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <p class="text-white font-rale text-[18px]">First Name</p>
+                        <input type="text" class="min-w-full h-[54px]">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <p class="text-white font-rale text-[18px]">Last Name</p>
+                        <input type="text" class="min-w-full h-[54px]">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <p class="text-white font-rale text-[18px]">Email Address</p>
+                        <input type="text" class="min-w-full h-[54px]">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                    <div class="flex flex-col gap-2">
+                        <p class="text-white font-rale text-[18px]">Your Message</p>
+                        <input type="text" class="min-w-full h-[139px]">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                    <a href="#" class="font-rale bg-green text-white px-14 py-4 max-w-fit">Send Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <Footer>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-[auto_1fr_auto] py-20">
+            <div>
+                <a href="#" class="font-medium text-[30px] text-black">A R Gardening</a>
+                <div class="flex flex-row gap-2 mt-[1rem]">
+                    <img src="black-f.png" alt="">
+                    <img src="black-t.png" alt="">
+                    <img src="black-i.png" alt="">
+                </div>
+            </div>
+            <div class="flex flex-col mr-[5rem] items-end">
+                <div>
+                    <p class="font-rale font-semibold text-[22px] mb-[2rem]">Legal Notice</p>
+                    <ul class="flex flex-col gap-[0.7rem]">
+                        <li class="font-rale text-[18px]">Terms & Conditions</li>
+                        <li class="font-rale text-[18px]">Privacy Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p class="font-rale font-semibold text-[22px] mb-[2rem]">Section Links</p>
+                <ul class="flex flex-col gap-[0.7rem]">
+                    <li class="font-rale text-[18px]">Services</li>
+                    <li class="font-rale text-[18px]">About</li>
+                    <li class="font-rale text-[18px]">Testimonials</li>
+                    <li class="font-rale text-[18px]">Free Quote</li>
+                    <li class="font-rale text-[18px]">Faq</li>
+
+                </ul>
+            </div>
+        </div>
+    </Footer>
+
+    <section>
+        <div class="mx-auto px-4 max-w-[1400px] grid grid-cols-2 py-5 lines">
+            <p class="font-rale text-[18x] font-medium">Website Made By Nathan</p>
+        </div>
+    </section>
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
